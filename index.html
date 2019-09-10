@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>calculator</title>
+    </head>
+    <body>
+        <section id="calculator"><!-- page-background -->
+
+        <input type="text" class="calculator-screen" value="" disabled ></input>
+
+         <section class="calculator-buttons"> <!-- background of calculator -->
+             <section id="first-rows">
+              <button type="button" value="all-clear" class="all-clear" id="all-clear">C</button>
+                 <button type="button" value="%" class="btn-num-style opera-bg fall-back" disabled>%</button>
+                 <button type="button" value="+" class="btn-num-style opera-bg value align operator">+</button>
+                 </section>
+
+               <section class="rows">
+             <button type="button" value="7" class="btn-num-style num-bg num first-child">7</button>
+                 <button type="button" value="8" class="btn-num-style num-bg num">8</button>
+                 <button type="button" value="9" class="btn-num-style num-bg num">9</button>
+                 <button type="button" value="-" class="btn-num-style opera-bg operator">-</button>
+                 </section>
+
+                 <section class="rows">
+                 <button type="button" value="4" class="btn-num-style num-bg num first-child">4</button>
+                 <button type="button" value="5" class="btn-num-style num-bg num">5</button>
+                 <button type="button" value="6" class="btn-num-style num-bg num">6</button>
+                 <button type="button" value="*" class="btn-num-style opera-bg operator">x</button>
+                 </section>
+
+                 <section class="rows">
+                 <button type="button" value="1" class="btn-num-style num-bg num first-child">1</button>
+                 <button type="button" value="2" class="btn-num-style num-bg num">2</button>
+                 <button type="button" value="3" class="btn-num-style num-bg num">3</button>
+                 <button type="button" value="/" class="btn-num-style opera-bg operator">/</button>
+                 </section>
+
+                 <section class="rows">
+                 <button type="button" value="0" class="num-bg zero num ">0</button>
+                 <button type="button" value="." class="btn-num-style num-bg period fall-back">.</button>
+                 <button type="button" value="=" id="eq-bg" class="eqn align operator">=</button>
+                 </section>
+
+             </section>
+
+         </section>
+
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
